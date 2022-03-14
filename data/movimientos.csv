@@ -1,4 +1,4 @@
-fecha,hora,concepto,cantidad
+fecha,hora,concepto,es_ingreso,cantidad
 2022-01-01,13:23:34,sueldo,1,8000.0
 2022-01-06,13:23:34,luz,0,180.0
 2022-01-26,11:23:34,juan,0,810.0

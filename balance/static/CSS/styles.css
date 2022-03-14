@@ -1,11 +1,9 @@
 :root {
-    --default-sep: 8px;
     --color-primario: #8377d1;
-    --negro:#2c363f;
-    --blanco:#fafafa;
-    --separacion-defecto: 8px;
-
-}
+    --color-secundario: #f7dba7;
+    --negro: #2c363f; 
+    --blanco: #fafafa;
+    --separacion-defecto: 8px;        }
 
 header, footer {
     padding: calc(2 * var(--separacion-defecto));
@@ -16,7 +14,27 @@ header, footer {
 }
 
 footer {
-    width: calc(100%-50px);
+    width: calc(100% - 50px); 
     position: absolute;
     bottom: var(--separacion-defecto);
+}
+
+.actions {
+    text-align: right;
+}
+
+.actions [role="button"] {
+    background-color: var(--color-primario);
+    border-color: var(--color-primario);
+}
+
+.error-msgs {
+    border: 1px solid red;
+    padding: calc(2 * var(--separacion-defecto));
+    background-color: var(--color-secundario)
+}
+
+.error-msgs li {
+    font-size: 0.8em;
+    color: darkred;
 }
